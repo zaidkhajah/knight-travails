@@ -23,4 +23,4 @@ const possibleMoves = function (currPos) {
 const getIndex = pos => pos[0] * 8 + pos[1];
 const getPos = index => [Math.floor(index / 8), index % 8];
 
-export {possibleMoves, getIndex, getPos}
+export {isValidPos, possibleMoves, getIndex, getPos}

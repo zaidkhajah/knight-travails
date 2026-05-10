@@ -1,5 +1,5 @@
 
-import { possibleMoves, getIndex, getPos } from "./support-functions.js";
+import { isValidPos, possibleMoves, getIndex, getPos } from "./support-functions.js";
 
 class KnightTravail {
 
@@ -59,3 +59,5 @@ class KnightTravail {
         console.log(`To get from [${getPos(this.startIndex)}] to [${getPos(this.endIndex)}] takes ${d} moves`);
     }
 }
+
+export {KnightTravail}
