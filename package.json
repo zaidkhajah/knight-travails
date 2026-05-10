@@ -1,0 +1,23 @@
+{
+  "name": "knight-travails",
+  "version": "1.0.0",
+  "description": "knight travails odin project",
+  "homepage": "https://github.com/zaidkhajah/knight-travails#readme",
+  "bugs": {
+    "url": "https://github.com/zaidkhajah/knight-travails/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaidkhajah/knight-travails.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.4.2"
+  }
+}
